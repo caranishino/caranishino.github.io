@@ -1,0 +1,80 @@
+*{
+  margin:0px;
+  padding:0px;
+  
+  
+}
+
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #e0aa6c; 
+ text-align: center;
+}
+
+header {
+  background-color: #2e1c05 ;
+  
+}
+.headerbackground {background-color: #2e1c05;}
+
+
+/* STYLE TEXT */
+
+h1 {
+  color: #e29b4b;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+
+h2 {
+  color: #0a0600;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+
+p {
+  padding-top:1em;
+}
+
+/* STYLE IMAGES */
+img{
+max-width: 30%;
+
+
+}
+
+.profile-picture{
+  max-width: 20%;
+  border-radius: 50%;
+  border: 3px solid  #e29b4b;
+  margin-bottom: 2em;
+
+}
+
+.youtube{
+  max-width: 10%;
+}
+/* STYLE NAV BAR */
+
+ul{
+  list-style-type: none;
+  background-color: #0a0600;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration:none;
+  color: white;
+  size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #e29b4b;
+  
+}
